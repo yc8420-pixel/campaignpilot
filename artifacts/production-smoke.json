@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-28T19:11:49.832Z",
+  "target": "local Next.js production build, unconfigured credentials",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "cacheControl": "s-maxage=31536000",
+      "body": null
+    },
+    {
+      "path": "/workspace",
+      "status": 200,
+      "cacheControl": "s-maxage=31536000",
+      "body": null
+    },
+    {
+      "path": "/api/status",
+      "status": 200,
+      "cacheControl": "private, no-store",
+      "body": {
+        "configured": false,
+        "aiEnabled": false,
+        "mode": "live"
+      }
+    },
+    {
+      "path": "/api/workspaces",
+      "status": 401,
+      "cacheControl": "private, no-store",
+      "body": {
+        "code": "UNAUTHENTICATED",
+        "message": "请先登录真实模式",
+        "requestId": "3893f63f-0ec2-41da-96b0-093abf0df896"
+      }
+    },
+    {
+      "path": "POST /api/workspaces wrong Origin",
+      "status": 403,
+      "body": {
+        "code": "ORIGIN",
+        "message": "请求来源不匹配",
+        "requestId": "8e5c9af3-e8e7-4d43-ade9-e8a7bcc68cb0"
+      }
+    }
+  ]
+}

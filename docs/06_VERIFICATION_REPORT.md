@@ -16,7 +16,8 @@
 | 公开部署 | Sites 状态 succeeded；匿名 HTTP 200；浏览器显示正确界面 | [部署记录](../artifacts/deployment.json) |
 | 录屏 | 实际操作 180 秒，1440×1000，含审核/导出/导入/复盘/下一轮 | [视频章节](../artifacts/video/chapters.json) |
 | 常见凭据格式扫描 | 源码/测试/构建 32 个文件，0 命中 | [扫描记录](../artifacts/secret-scan.json) |
-| 干净目录复现 | 待最终 Git 导出后的复现记录补充 | `artifacts/clean-reproduction.log` |
+| 干净目录复现 | 从 Git 提交导出，npm ci + check 全通过；静态文件摘要与交付版本一致 | [复现日志](../artifacts/clean-reproduction.log) |
+| Next.js 生产启动 | 两页面200、未配置明确返回false、匿名401、跨站POST403 | [冒烟结果](../artifacts/production-smoke.json) |
 
 本机执行环境：macOS arm64；最终基线 Node **24.22.1**；Next.js **16.4.3**，React **19.3.1**，Vite **7.3.7**，Vitest **5.0.5**，Playwright **1.64.1**，依赖完整版本见锁文件。初期 Node 25 出现依赖 engine 警告，最终改用 Node 24；没有把不支持环境的警告隐藏成支持声明。
 
@@ -77,3 +78,9 @@ Postgres 集成使用 PGlite 的实际 PostgreSQL 引擎，执行完整 migratio
 - GitHub 远程推送与远端 Actions 执行；CI 文件已提供，本机同等命令已执行。
 
 发布判定：**可以交付并演示明确标注的固定案例版本；不能宣称原规划的全部真实 AI 发布硬门槛已满足。** 上述限制不被 UI 完整度、mock 或本机测试替代。
+
+## 干净复现补充
+
+从应用提交 `500a53d` 导出到全新临时目录，没有复制 node_modules、.next、dist 或 .env。Node 24.22.1 下 `npm ci` 安装 400 个包，随后类型、lint、54项测试、Next.js 与 Vite 两种构建均通过。后续交付提交只补充报告与打包材料，应用源文件保持一致。构建后的 JS/CSS 文件名和内容摘要与已发布静态版本一致。
+
+安装器提示 ESLint 9 的维护状态警告，Vite 提示移除依赖中无法识别的 PURE 注释；命令退出均为0。没有把这些提示误报成安全漏洞或测试失败，依赖锁文件保持可复现。
