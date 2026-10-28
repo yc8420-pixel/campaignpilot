@@ -1,0 +1,1726 @@
+{
+  "version": 1,
+  "fictional": true,
+  "cases": [
+    {
+      "id": "R01",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-01",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌1",
+          "product": "通勤包新款",
+          "tone": "简洁、实用",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "通勤包新款",
+              "source": "评测虚构资料：该产品为通勤包新款。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "99元",
+              "source": "评测虚构价格表：售价99元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "通勤包新款 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "城市上班族（待验证假设）",
+          "budgetCents": 500000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R02",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-02",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌2",
+          "product": "帆布托特",
+          "tone": "温和、日常",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "帆布托特",
+              "source": "评测虚构资料：该产品为帆布托特。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "104元",
+              "source": "评测虚构价格表：售价104元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "帆布托特 · 表达验证",
+          "goal": "验证规格表达与场景表达",
+          "audience": "校园通勤者（待验证假设）",
+          "budgetCents": 150000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R03",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-03",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌3",
+          "product": "桌面收纳盒",
+          "tone": "清楚、有条理",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "桌面收纳盒",
+              "source": "评测虚构资料：该产品为桌面收纳盒。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "109元",
+              "source": "评测虚构价格表：售价109元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "桌面收纳盒 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "居家办公人群（待验证假设）",
+          "budgetCents": 200000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R04",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-04",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌4",
+          "product": "保温杯",
+          "tone": "克制、不夸张",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "保温杯",
+              "source": "评测虚构资料：该产品为保温杯。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "114元",
+              "source": "评测虚构价格表：售价114元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "保温杯 · 表达验证",
+          "goal": "提高商品详情点击",
+          "audience": "办公室饮水人群（待验证假设）",
+          "budgetCents": 300000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R05",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-05",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌5",
+          "product": "运动毛巾",
+          "tone": "明快、客观",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "运动毛巾",
+              "source": "评测虚构资料：该产品为运动毛巾。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "119元",
+              "source": "评测虚构价格表：售价119元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "运动毛巾 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "日常运动人群（待验证假设）",
+          "budgetCents": 100000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R06",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-06",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌6",
+          "product": "旅行洗漱包",
+          "tone": "轻松、具体",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "旅行洗漱包",
+              "source": "评测虚构资料：该产品为旅行洗漱包。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "124元",
+              "source": "评测虚构价格表：售价124元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "旅行洗漱包 · 表达验证",
+          "goal": "验证场景素材",
+          "audience": "周末出行人群（待验证假设）",
+          "budgetCents": 180000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R07",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-07",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌7",
+          "product": "笔记本",
+          "tone": "安静、有条理",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "笔记本",
+              "source": "评测虚构资料：该产品为笔记本。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "129元",
+              "source": "评测虚构价格表：售价129元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "笔记本 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "学习记录人群（待验证假设）",
+          "budgetCents": 80000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R08",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-08",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌8",
+          "product": "笔袋",
+          "tone": "活泼但不幼稚",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "笔袋",
+              "source": "评测虚构资料：该产品为笔袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "134元",
+              "source": "评测虚构价格表：售价134元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "笔袋 · 表达验证",
+          "goal": "提高详情点击",
+          "audience": "大学生（待验证假设）",
+          "budgetCents": 60000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R09",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-09",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌9",
+          "product": "折叠购物袋",
+          "tone": "简洁、可信",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "折叠购物袋",
+              "source": "评测虚构资料：该产品为折叠购物袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "139元",
+              "source": "评测虚构价格表：售价139元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "折叠购物袋 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "日常采购者（待验证假设）",
+          "budgetCents": 120000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R10",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-10",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌10",
+          "product": "文件袋",
+          "tone": "专业、实用",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "文件袋",
+              "source": "评测虚构资料：该产品为文件袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "144元",
+              "source": "评测虚构价格表：售价144元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "文件袋 · 表达验证",
+          "goal": "验证功能清单",
+          "audience": "商务通勤者（待验证假设）",
+          "budgetCents": 250000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R11",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-11",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌11",
+          "product": "午餐袋",
+          "tone": "亲切、不夸张",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "午餐袋",
+              "source": "评测虚构资料：该产品为午餐袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "149元",
+              "source": "评测虚构价格表：售价149元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "午餐袋 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "自带午餐人群（待验证假设）",
+          "budgetCents": 90000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R12",
+      "split": "development",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-12",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌12",
+          "product": "旅行挂袋",
+          "tone": "简练、有场景",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "旅行挂袋",
+              "source": "评测虚构资料：该产品为旅行挂袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "154元",
+              "source": "评测虚构价格表：售价154元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "旅行挂袋 · 表达验证",
+          "goal": "验证两个内容角度",
+          "audience": "短途旅行者（待验证假设）",
+          "budgetCents": 220000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R13",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-13",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌13",
+          "product": "鞋袋",
+          "tone": "清爽、日常",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "鞋袋",
+              "source": "评测虚构资料：该产品为鞋袋。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "159元",
+              "source": "评测虚构价格表：售价159元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "鞋袋 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "健身通勤人群（待验证假设）",
+          "budgetCents": 160000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R14",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-14",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌14",
+          "product": "眼镜盒",
+          "tone": "精炼、客观",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "眼镜盒",
+              "source": "评测虚构资料：该产品为眼镜盒。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "164元",
+              "source": "评测虚构价格表：售价164元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "眼镜盒 · 表达验证",
+          "goal": "提高详情点击",
+          "audience": "眼镜使用者（待验证假设）",
+          "budgetCents": 70000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R15",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-15",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌15",
+          "product": "钥匙收纳包",
+          "tone": "轻松、利落",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "钥匙收纳包",
+              "source": "评测虚构资料：该产品为钥匙收纳包。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "169元",
+              "source": "评测虚构价格表：售价169元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "钥匙收纳包 · 表达验证",
+          "goal": "验证场景表达",
+          "audience": "城市青年（待验证假设）",
+          "budgetCents": 130000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R16",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-16",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌16",
+          "product": "数码收纳包",
+          "tone": "专业、克制",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "数码收纳包",
+              "source": "评测虚构资料：该产品为数码收纳包。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "174元",
+              "source": "评测虚构价格表：售价174元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "数码收纳包 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "移动办公者（待验证假设）",
+          "budgetCents": 350000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R17",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-17",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌17",
+          "product": "书套",
+          "tone": "安静、亲切",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "书套",
+              "source": "评测虚构资料：该产品为书套。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "179元",
+              "source": "评测虚构价格表：售价179元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "书套 · 表达验证",
+          "goal": "验证内容点击",
+          "audience": "纸质阅读爱好者（待验证假设）",
+          "budgetCents": 90000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R18",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-18",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌18",
+          "product": "桌垫",
+          "tone": "清楚、有设计感",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "桌垫",
+              "source": "评测虚构资料：该产品为桌垫。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "184元",
+              "source": "评测虚构价格表：售价184元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "桌垫 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "桌面整理人群（待验证假设）",
+          "budgetCents": 240000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R19",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-19",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌19",
+          "product": "行李牌",
+          "tone": "明快、具体",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "行李牌",
+              "source": "评测虚构资料：该产品为行李牌。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "189元",
+              "source": "评测虚构价格表：售价189元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "深绿色",
+              "source": "评测虚构资料：颜色深绿色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "行李牌 · 表达验证",
+          "goal": "验证实用表达",
+          "audience": "周末出行者（待验证假设）",
+          "budgetCents": 50000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "R20",
+      "split": "holdout",
+      "rounds": 2,
+      "workspace": {
+        "schemaVersion": 1,
+        "id": "evaluation-20",
+        "revision": 0,
+        "name": "轻行 · 城市通勤新品计划",
+        "mode": "live",
+        "brand": {
+          "name": "虚构品牌20",
+          "product": "证件夹",
+          "tone": "专业、简洁",
+          "forbidden": [
+            "全网最低",
+            "百分百防水",
+            "销量第一"
+          ],
+          "facts": [
+            {
+              "id": "P001",
+              "label": "品类",
+              "value": "证件夹",
+              "source": "评测虚构资料：该产品为证件夹。",
+              "confirmed": true
+            },
+            {
+              "id": "P002",
+              "label": "售价",
+              "value": "194元",
+              "source": "评测虚构价格表：售价194元。",
+              "confirmed": true
+            },
+            {
+              "id": "P003",
+              "label": "颜色",
+              "value": "米白色",
+              "source": "评测虚构资料：颜色米白色。",
+              "confirmed": true
+            },
+            {
+              "id": "P004",
+              "label": "包装数量",
+              "value": "单件装",
+              "source": "评测虚构资料：每份含一件产品；未提供材质与认证。",
+              "confirmed": true
+            }
+          ]
+        },
+        "brandRevision": 1,
+        "brief": {
+          "title": "证件夹 · 表达验证",
+          "goal": "获取可归因订单",
+          "audience": "商务出行者（待验证假设）",
+          "budgetCents": 280000,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "timezone": "Asia/Shanghai",
+          "channels": [
+            "xiaohongshu",
+            "douyin"
+          ],
+          "notes": "没有提供材质、销量、认证、用户证言、性能保证；不得补造。"
+        },
+        "briefRevision": 1,
+        "strategy": null,
+        "selectedAngle": "scene",
+        "variants": [],
+        "batches": [],
+        "analyses": [],
+        "exports": [],
+        "runs": [],
+        "audit": []
+      },
+      "review": {
+        "factuality": null,
+        "channelFit": null,
+        "actionability": null,
+        "reasoning": null,
+        "clarity": null,
+        "hardFactErrors": null,
+        "reviewer": null,
+        "status": "not_run"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mode": "fixture",
+  "realAiCalls": 0,
+  "unedited": true,
+  "durationTargetSeconds": 180,
+  "scenes": [
+    {
+      "atSeconds": 0,
+      "title": "00:00 工作概览：虚构案例与演示模式"
+    },
+    {
+      "atSeconds": 13,
+      "title": "00:13 流程说明：预生成响应，无真实AI调用"
+    },
+    {
+      "atSeconds": 25,
+      "title": "00:25 产品事实与原始来源"
+    },
+    {
+      "atSeconds": 42,
+      "title": "00:42 活动目标、预算与三个角度"
+    },
+    {
+      "atSeconds": 60,
+      "title": "01:00 双渠道内容 A/B"
+    },
+    {
+      "atSeconds": 69,
+      "title": "01:09 文案审核与来源快照"
+    },
+    {
+      "atSeconds": 87,
+      "title": "01:27 人工确认 A/B 审核"
+    },
+    {
+      "atSeconds": 99,
+      "title": "01:39 交付导出：锁定版本，不代表发布"
+    },
+    {
+      "atSeconds": 108,
+      "title": "01:48 CSV 预览与合同校验"
+    },
+    {
+      "atSeconds": 122,
+      "title": "02:02 确定性指标：CTR 2.33%、CPA 70、ROAS 3.84"
+    },
+    {
+      "atSeconds": 139,
+      "title": "02:19 复盘：观察、假设与限制"
+    },
+    {
+      "atSeconds": 158,
+      "title": "02:38 确认下一轮实验：不覆盖原活动"
+    },
+    {
+      "atSeconds": 173,
+      "title": "02:53 新活动需求；日期、预算待核对"
+    }
+  ]
+}

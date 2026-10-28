@@ -1,0 +1,53 @@
+{
+  "name": "campaignpilot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "dev:demo": "vite --config vite.config.ts --host 127.0.0.1",
+    "build": "next build",
+    "build:demo": "vite build --config vite.config.ts",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build && npm run build:demo",
+    "eval:prepare": "tsx scripts/prepare-evals.ts",
+    "eval:run": "tsx scripts/evaluate.ts",
+    "samples": "tsx scripts/export-samples.ts",
+    "preview:demo": "vite preview --config vite.config.ts --host 127.0.0.1 --port 5174",
+    "format:check": "prettier --check src app tests scripts *.ts *.mjs package.json"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "lucide-react": "^0.468.0",
+    "next": "16.4.3",
+    "openai": "^6.0.0",
+    "papaparse": "^5.5.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.10",
+    "@playwright/test": "1.64.1",
+    "@types/node": "^22.18.6",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.37.0",
+    "eslint-config-next": "16.4.3",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  }
+}

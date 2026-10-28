@@ -1,0 +1,13 @@
+{
+  "projectId": "appgprj_6ae227b77b308191ab31e821ba2f7b16",
+  "versionId": "appgprj_6ae227b77b308191ab31e821ba2f7b16~appgver_948f622b3fe08191a8a3243be34b088f",
+  "deploymentId": "appgdep_6ae2466ea6588191b1fb28d555d52371",
+  "sourceCommit": "7ce6d74b69fee5fcd52953728866edfc2a07dd01",
+  "status": "succeeded",
+  "audience": "public",
+  "url": "https://campaignpilot-yingce-20261028.elated-rose-5505.chatgpt.site",
+  "verifiedAt": "2026-10-28T19:02:51Z",
+  "httpStatusWithoutAuth": 200,
+  "runtime": "static fixture only; no backend or AI keys",
+  "note": "Sites source commit differs from the main GitHub-ready repository commit."
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-28T19:00:30.326Z",
+  "environment": "macOS arm64, headless Chromium, Vite production preview on loopback, no throttling",
+  "measurement": "navigation to first visible h1; not LCP and not public-network SLA",
+  "newBrowserContext": {
+    "n": 10,
+    "medianMs": 64.93516599999998,
+    "p95Ms": 74.054375,
+    "samplesMs": [
+      74.054375,
+      65.333709,
+      66.54612500000007,
+      65.09887500000002,
+      64.87308399999995,
+      64.80124999999998,
+      64.59024999999997,
+      64.93516599999998,
+      64.6176660000001,
+      64.41712499999994
+    ]
+  },
+  "sameContextReload": {
+    "n": 10,
+    "medianMs": 23.29170799999997,
+    "p95Ms": 32.845665999999994,
+    "samplesMs": [
+      32.845665999999994,
+      23.75116700000001,
+      23.651665999999977,
+      21.844124999999963,
+      22.26808399999993,
+      22.317583000000127,
+      21.28454099999999,
+      22.126832999999806,
+      23.29170799999997,
+      26.38091600000007
+    ]
+  },
+  "realModelLatency": null,
+  "realModelCost": null
+}

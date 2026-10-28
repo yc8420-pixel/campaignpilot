@@ -1,0 +1,10 @@
+{
+  "regularCount": 20,
+  "development": 12,
+  "holdout": 8,
+  "rounds": 2,
+  "abnormalCount": 10,
+  "sha256": "f71b31002227c46ce2e7a4849b8fe7a9b426dab84cc9c2a06f3ecc2b4bc65e31",
+  "modelRuns": 0,
+  "status": "prepared_not_run"
+}

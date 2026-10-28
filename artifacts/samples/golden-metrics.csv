@@ -1,0 +1,3 @@
+date,campaign_id,channel,variant_id,impressions,clicks,orders,spend,revenue,currency,attribution_window
+2026-10-03,qingxing-demo,xiaohongshu,xhs-a,10000,300,12,600.00,3228.00,CNY,last_click_7d
+2026-10-03,qingxing-demo,xiaohongshu,xhs-b,20000,400,8,800.00,2152.00,CNY,last_click_7d

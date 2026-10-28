@@ -1,0 +1,12 @@
+
+> campaignpilot@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 <PROJECT_ROOT>
+
+
+ Test Files  5 passed (5)
+      Tests  54 passed (54)
+   Start at  15:01:26
+   Duration  776ms (tests 52%, import 38%, transform 10%, worker 1%)
